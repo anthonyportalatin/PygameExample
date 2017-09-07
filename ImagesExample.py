@@ -36,3 +36,5 @@ while not crashed:
         car(x, y)
         pygame.display.update()
         clock.tick(30)
+
+pygame.quit()
