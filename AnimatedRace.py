@@ -18,6 +18,7 @@ car = pygame.transform.rotate(car, 90)
 carx = 0
 cary = 500
 direction = 'up'
+
 def road(x, y):
     pygame.draw.rect(display, black, (0, 0, 700, 100))
     pygame.draw.rect(display, black, (700, 0, 100, 700))
